@@ -8,3 +8,8 @@ int power(int a, int b) {
     int result = tmp * tmp;
     return result;
 }
+
+int main() {
+    cout << "3^4 = " << power(3, 4) << endl;
+    return 0;
+}
